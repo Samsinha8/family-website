@@ -3,17 +3,17 @@
 .App-header {
   display: flex;
   flex-wrap: wrap;
-  background: linear-gradient(to bottom right,black,grey);
+  background: linear-gradient(#FF5000, orange);
   padding: 1%;
-  border-bottom: 3px solid orange;
+  border-bottom: 3px solid white;
 }
 .estd{
   color: white;
   margin: 0px;
   padding: 0px;
+  margin-left: 50%;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  margin-left: 55%;
 }
 .headimg{
   height: 70px;
@@ -69,10 +69,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom right,black,grey);
+  background: linear-gradient(to bottom right,#FF5000,orange);
   border-bottom: 2px solid white;
 }
-.slideHeader h1{
+.slideHeader h3{
   color: white;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -89,7 +89,7 @@
   margin-bottom: 5px;
 }
 .closebtn {
-  color: #c7d1d8;
+  color: white;
   text-decoration: none;
   font-size: 30px;
   margin-left: 270px;
@@ -113,40 +113,54 @@
                 rgba(0,0,0,0.2)5px -2px 1px -2px;
 }
 .links {
-  background: repeating-linear-gradient(black, orange);
+  background: repeating-linear-gradient(#FF5000, orange);
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    padding-top: 5%;
 }
-.links hr{
-  color: white;
+.hr{
+  height: 1px;
+  background-color: white;
   width: 100%;
-  margin-top: 3px;
+  margin-top: 15px;
+}
+.signfrm{
+  padding: 0 5% 0 10%; 
 }
 .links a{
   text-decoration: none;
   color: white;
-  font-size: 15px;
   margin-left: 10%;
+  padding-top: 5%;
 }
 .links a h3{
+  font-size: 20px;
+  color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 .links a :hover{
-  color: #045555;
+  color: white;
   font-weight: 700;
   cursor: pointer;
 }
+.login{
+  display: flex;
+  justify-content: space-around;
+}
+.loginicon{
+  margin-right: 5px;
+}
 .icons{
   margin-right: 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
 .icons2{
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .backdrop {
   z-index: 2;
@@ -172,10 +186,10 @@
 
 .slide{
   width: 85%;
-  height: 545px;
+  height: 544px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid orange;
+  border: 2px solid white;
 }
 .content{
   height: 540px;
@@ -205,6 +219,9 @@
   100% {padding: 0px;}
 }
 .slidetext h2{
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   margin: 0px;
   padding: 0px;
   color: white;
@@ -218,13 +235,13 @@
   border-radius: 100%;
   border: 2px solid yellow;
   padding: 2px;
-  height: 4px;
-  width: 4px;
+  height: 10px;
+  width: 10px;
   line-height: 4px;
 }
 .slick-dots li button::before{
-  top: -6px;
-  left: -5.5px;
+  top: -6.5px;
+  left: -7px;
 }
 .list{
   margin-top: 3%;
@@ -344,8 +361,8 @@
 }
 .footer{
   height: 285px;
-  background: linear-gradient(to bottom right,black,grey);
-  border-top: 3px solid orange;
+  background: linear-gradient(to bottom right,#FF5000,orange);
+  border-top: 3px solid white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -371,9 +388,9 @@
 }
 .cicon{
   font-size: 30px;
-  line-height: 40px;
-  height: 40px;
-  width: 40px;
+  line-height: 35px;
+  height: 50px;
+  width: 50px;
   color: white;
   border-radius: 100%;
   border: 2px solid white;
@@ -382,13 +399,13 @@
   margin-right: 15px;
 }
 .cicon::before{
-  margin-left: 20%;
+  margin-left: 18%;
 }
 .cicon2{
   font-size: 30px;
-  line-height: 40px;
-  height: 40px;
-  width: 40px;
+  line-height: 35px;
+  height: 50px;
+  width: 50px;
   color: white;
   border-radius: 100%;
   border: 2px solid white;

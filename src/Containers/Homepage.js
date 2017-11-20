@@ -22,7 +22,7 @@ const Homepage = () => (
     <Fade bottom>
       <Slider {...settings} className="slide">
         <div className="content">
-          <img src="/Images/slide1.png" className="slideimg" alt="" />
+          <img src="/Images/slide1.jpg" className="slideimg" alt="" />
           <div className="slidetext"><h2>Chitragupt Temple</h2></div>
         </div>
         <div className="content">
