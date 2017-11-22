@@ -5,6 +5,11 @@ const Footer = () => (
   <div className="footer">
     <Fade bottom>
       <div className="foottext">
+        <div className="staticfoot">
+          <img src="/Images/swastik.png" alt="" className="swastik" />
+          <h4>|| श्री चित्रगुप्ताय नमः ||</h4>
+          <img src="/Images/swastik.png" alt="" className="swastik" />
+        </div>
         <h1>Chitransh Pariwar</h1>
         <h1>चित्रांश परिवार</h1>
       </div>

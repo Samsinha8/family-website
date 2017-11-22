@@ -2,6 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import '../App.css';
 
 const History = () => (
   <div className="History">
