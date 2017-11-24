@@ -35,11 +35,11 @@ const Homepage = () => (
         </div>
         <div className="content">
           <img src="/Images/slide4.JPG" className="slideimg" alt="" />
-          <div className="slidetext"><h2>Chitragupt Puja - 2014</h2></div>
+          <div className="slidetext"><h2>Chitragupt Puja - 2012</h2></div>
         </div>
         <div className="content">
           <img src="/Images/slide5.jpg" className="slideimg" alt="" />
-          <div className="slidetext"><h2>Chitragupt Puja - 2014</h2></div>
+          <div className="slidetext"><h2>Chitragupt Puja - 2012</h2></div>
         </div>
         <div className="content">
           <img src="/Images/slide6.jpg" className="slideimg" alt="" />

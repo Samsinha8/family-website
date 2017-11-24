@@ -5,7 +5,7 @@ import Footer from '../Components/Footer';
 import '../App.css';
 
 const About = () => (
-  <div className="About">
+  <div>
     <Header />
     <div className="abtcntnt">
       <Fade bottom>

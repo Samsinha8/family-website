@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid yellow;
-  background-color: orange;
+  background-color: #6363EA;
   position: fixed;
   width: 100%;
   height: 35px;
@@ -25,7 +25,7 @@
   margin-top: 35px;
   display: flex;
   flex-wrap: wrap;
-  background: linear-gradient(#FF5000, orange);
+  background: linear-gradient(to right, #6363EA, orange);
   padding: 5px;
   border-bottom: 3px solid yellow;
 }
@@ -339,10 +339,12 @@
   text-align: center;
   padding: 20%;
 }
+
+
 .footer{
   height: 275px;
   padding-top: 20px;
-  background: linear-gradient(to bottom right,#FF5000,orange);
+  background: linear-gradient(to bottom right,#6363EA,orange);
   border-top: 3px solid yellow;
   display: flex;
   flex-direction: column;
@@ -476,4 +478,62 @@
   color: yellow;
   transition: 200ms;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.cpshead{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cpshead2{
+  width: 100%;
+}
+.pujasamiti{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.adhyaksh{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: 2px solid yellow;
+  padding: 3px;
+}
+.adhyaksh2{
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+  border: 2px solid yellow;
+  padding: 3px;
+}
+.pujasamiti h2{
+  margin-top: 10px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: yellow;
+}
+.pujasamiti h3{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: yellow;
+}
+.headgrp{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.upadhyaksh{
+  margin-top: 20px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

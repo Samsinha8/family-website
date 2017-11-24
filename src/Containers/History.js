@@ -5,7 +5,7 @@ import Footer from '../Components/Footer';
 import '../App.css';
 
 const History = () => (
-  <div className="History">
+  <div>
     <Header />
     <div className="abtcntnt">
       <Fade bottom>

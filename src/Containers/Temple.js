@@ -5,7 +5,7 @@ import Footer from '../Components/Footer';
 import '../App.css';
 
 const Temple = () => (
-  <div className="Temple">
+  <div>
     <Header />
     <div className="abtcntnt">
       <Fade bottom>
