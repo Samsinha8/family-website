@@ -15,10 +15,10 @@ const Footer = () => (
       </div>
     </Fade>
     <div className="fbicons">
-      <Fade bottom delay={500}><a href="https://www.facebook.com/chitranshpariwarkc"><i className="fa fa-facebook cicon" /></a></Fade>
-      <Fade bottom delay={1000}><a href="https://twitter.com/SamSamresh"><i className="fa fa-twitter cicon" /></a></Fade>
-      <Fade bottom delay={1500}><a href="https://plus.google.com/117904419750256545620"><i className="fa fa-google-plus cicon2" /></a></Fade>
-      <Fade bottom delay={2000}><a href="https://www.instagram.com/samresh_sinha/?hl=en"><i className="fa fa-instagram cicon" /></a></Fade>
+      <Fade left delay={500}><a href="https://www.facebook.com/chitranshpariwarkc"><i className="fa fa-facebook cicon" /></a></Fade>
+      <Fade left delay={1000}><a href="https://twitter.com/SamSamresh"><i className="fa fa-twitter cicon" /></a></Fade>
+      <Fade left delay={1500}><a href="https://plus.google.com/117904419750256545620"><i className="fa fa-google-plus cicon2" /></a></Fade>
+      <Fade left delay={2000}><a href="https://www.instagram.com/samresh_sinha/?hl=en"><i className="fa fa-instagram cicon" /></a></Fade>
     </div>
   </div>
 );

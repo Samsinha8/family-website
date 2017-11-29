@@ -4,11 +4,6 @@ import SliderMenu from '../Components/SliderMenu';
 
 const Header = () => (
   <div className="App-header">
-    <div className="statichead">
-      <img src="/Images/swastik.png" alt="" className="swastik" />
-      <h4>|| श्री चित्रगुप्ताय नमः ||</h4>
-      <img src="/Images/swastik.png" alt="" className="swastik" />
-    </div>
     <div className="header">
       <SliderMenu />
       <a href="#root" className="openbtn" aria-hidden>

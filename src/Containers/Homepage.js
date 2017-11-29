@@ -22,39 +22,39 @@ const Homepage = () => (
     <Fade bottom>
       <Slider {...settings} className="slide">
         <div className="content">
-          <img src="/Images/slide1.jpg" className="slideimg" alt="" />
+          <img src="/Images/Slide/slide1.jpg" className="slideimg" alt="" />
           <div className="slidetext"><h2>Chitragupt Temple</h2></div>
         </div>
         <div className="content">
-          <img src="/Images/slide2.jpg" className="slideimg" alt="" />
+          <img src="/Images/Slide/slide2.jpg" className="slideimg" alt="" />
           <div className="slidetext"><h2>Chitragupt Puja - 2017</h2></div>
         </div>
         <div className="content">
-          <img src="/Images/slide3.JPG" className="slideimg" alt="" />
+          <img src="/Images/Slide/slide3.JPG" className="slideimg" alt="" />
           <div className="slidetext"><h2>MahaYagya - 2013</h2></div>
         </div>
         <div className="content">
-          <img src="/Images/slide4.JPG" className="slideimg" alt="" />
+          <img src="/Images/Slide/slide4.JPG" className="slideimg" alt="" />
           <div className="slidetext"><h2>Chitragupt Puja - 2012</h2></div>
         </div>
         <div className="content">
-          <img src="/Images/slide5.jpg" className="slideimg" alt="" />
+          <img src="/Images/Slide/slide5.jpg" className="slideimg" alt="" />
           <div className="slidetext"><h2>Chitragupt Puja - 2012</h2></div>
         </div>
         <div className="content">
-          <img src="/Images/slide6.jpg" className="slideimg" alt="" />
+          <img src="/Images/Slide/slide6.jpg" className="slideimg" alt="" />
           <div className="slidetext"><h2>Biradari Bhoj</h2></div>
         </div>
         <div className="content">
-          <img src="/Images/slide7.jpg" className="slideimg" alt="" />
+          <img src="/Images/Slide/slide7.jpg" className="slideimg" alt="" />
           <div className="slidetext"><h2>Biradari Bhoj</h2></div>
         </div>
         <div className="content">
-          <img src="/Images/slide8.JPG" className="slideimg" alt="" />
+          <img src="/Images/Slide/slide8.JPG" className="slideimg" alt="" />
           <div className="slidetext"><h2>Chitragupt Wisarjan</h2></div>
         </div>
         <div className="content">
-          <img src="/Images/slide9.JPG" className="slideimg" alt="" />
+          <img src="/Images/Slide/slide9.JPG" className="slideimg" alt="" />
           <div className="slidetext"><h2>Chitragupt Wisarjan</h2></div>
         </div>
       </Slider>

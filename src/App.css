@@ -1,39 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:700,400,500,300,200,100);
 
-.statichead{
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 2px solid yellow;
-  background-color: #6363EA;
-  position: fixed;
-  width: 100%;
-  height: 35px;
-  z-index: 1;
-  margin-top: -35px;
-  padding-top: 4px;
-}
-.statichead h4{
-  margin: 0px;
-  padding: 0px;
-  color: yellow;
-}
 .swastik{
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
 }
 .header {
-  margin-top: 35px;
+  position: fixed;
+  width: 100%;
+  margin-top: -85px;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   background: linear-gradient(to right, #6363EA, orange);
   padding: 5px;
   border-bottom: 3px solid yellow;
+  border-top: 3px solid yellow;
 }
 .estd{
   color: yellow;
   margin: 0px;
   padding: 0px;
-  margin-left: 50%;
+  margin-left: 53%;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
@@ -41,7 +28,7 @@
   height: 70px;
   width: 70px;
   border-radius: 100%;
-  border: 2px solid yellow;
+  border: 3px solid yellow;
   padding: 3px;
   margin-left: 15px;
 }
@@ -58,6 +45,23 @@
   font-size: 29px;
   color: yellow;
 }
+@media (max-width: 425px){
+  .heading h1{
+    font-size: 22px;
+  }
+  .estd{
+    font-size: 10px;
+    margin-left: 85%;
+  }
+  .headimg{
+    height: 55px;
+    width: 55px;
+    margin-left: 10px;
+  }
+  .heading{
+    margin-left: 3%;
+  }
+}
 .heading span{
   padding: 0px;
   margin: 0px;
@@ -65,10 +69,16 @@
   font-weight: 300;
   font-size: 18px;
 }
+@media (max-width: 425px){
+  .heading span{
+    font-size: 12px;
+  }
+}
 .openbtn{
   margin-top: 1%;
   font-size: 30px;
   color: yellow;
+  margin-left: 1%;
 }
 .openbtn:hover{
   color: #C4D4C3;
@@ -198,6 +208,7 @@
 
 
 .slide{
+  margin-top: 85px;
   width: 85%;
   height: 544px;
   margin-left: auto;
@@ -206,6 +217,16 @@
 }
 .content{
   height: 540px;
+}
+@media (max-width: 425px){
+  .slide{
+    height: 404px;
+    width: 100%;
+  }
+  .content{
+    height: 400px;
+    width: 100%;
+  }
 }
 .slideimg {
     width: 100%;
@@ -342,7 +363,7 @@
 
 
 .footer{
-  height: 275px;
+  height: 250px;
   padding-top: 20px;
   background: linear-gradient(to bottom right,#6363EA,orange);
   border-top: 3px solid yellow;
@@ -411,6 +432,7 @@
 
 
 .abtcntnt{
+  margin-top: 85px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -432,6 +454,7 @@
   align-items: center;
 }
 .committees{
+  margin-top: 60px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -441,7 +464,7 @@
 .comcard1{
   height: 100%;
   width: 100%;
-  background-image: url('/Images/slide4.JPG');
+  background-image: url('/Images/Slide/slide4.JPG');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   opacity: 0.7;
@@ -449,7 +472,7 @@
 .comcard2{
   height: 100%;
   width: 100%;
-  background-image: url('/Images/slide5.jpg');
+  background-image: url('/Images/history.JPG');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   opacity: 0.7;
@@ -488,25 +511,43 @@
 }
 .cpshead2{
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .pujasamiti{
+  margin-top: 85px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .adhyaksh{
-  height: 200px;
-  width: 200px;
+  height: 210px;
+  width: 210px;
   border-radius: 100%;
-  border: 2px solid yellow;
-  padding: 3px;
+  border: 8px solid yellow;
+  padding: 4px;
 }
 .adhyaksh2{
-  height: 170px;
-  width: 170px;
+  height: 180px;
+  width: 180px;
   border-radius: 100%;
-  border: 2px solid yellow;
+  border: 6px solid yellow;
   padding: 3px;
+}
+.pujasamiti h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: yellow;
+}
+@media (max-width: 425px){
+  .pujasamiti h1{
+    font-size: 40px;
+  }
 }
 .pujasamiti h2{
   margin-top: 10px;
@@ -524,16 +565,42 @@
   font-size: 25px;
   color: yellow;
 }
-.headgrp{
+.upadhyaksh{
+  width: 350px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.anya{
+  margin-top: 50px;
+}
+.cpshead3{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 30px;
 }
-.upadhyaksh{
-  margin-top: 20px;
-  width: 350px;
+.anyalog{
+  margin-top: 30px;
+  width: 230px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.anyalog h3{
+  margin-top: 10px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: yellow;
+}
+.adhyaksh3{
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  border: 4px solid yellow;
+  padding: 3px;
 }
