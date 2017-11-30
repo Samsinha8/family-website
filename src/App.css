@@ -47,7 +47,7 @@
 }
 @media (max-width: 425px){
   .heading h1{
-    font-size: 22px;
+    font-size: 21px;
   }
   .estd{
     font-size: 10px;
@@ -59,7 +59,7 @@
     margin-left: 10px;
   }
   .heading{
-    margin-left: 3%;
+    margin-left: 2%;
   }
 }
 .heading span{
