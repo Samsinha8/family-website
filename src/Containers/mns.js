@@ -8,6 +8,7 @@ const mns = () => (
     <div className="mns">
       <Header />
       <div className="pujasamiti">
+        <div className="headback2" />
         <Fade bottom><h1>मंदिर निर्माण समिति</h1></Fade>
         <Fade bottom className="cpshead">
         <img className="adhyaksh" src="/Images/commit/Dada.JPG" alt="" />
@@ -48,9 +49,18 @@ const mns = () => (
             <h3>श्री रामानंद प्रसाद</h3>
           </div>
           <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Vijay.jpg" alt="" />
+            <h3>श्री विजय कुमार सिन्हा</h3>
+          </div>
+          <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Manoj.jpg" alt="" />
             <h3>श्री मनोज कुमार सिन्हा</h3>
           </div>
+        </Fade>
+        <Fade bottom delay={1000} className="anya">
+          <h2>अन्य सदस्य</h2>
+        </Fade>
+        <Fade bottom delay={1000} className="cpshead3">
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Ranjan.jpg" alt="" />
             <h3>श्री रंजन कुमार सिन्हा</h3>
@@ -62,6 +72,10 @@ const mns = () => (
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Ajay.jpg" alt="" />
             <h3>श्री अजय कुमार सिन्हा</h3>
+          </div>
+          <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Nikku.jpg" alt="" />
+            <h3>श्री निकेश आनंद</h3>
           </div>
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Alok.jpg" alt="" />

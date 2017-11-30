@@ -8,6 +8,7 @@ const ncs = () => (
     <div className="ncs">
       <Header />
       <div className="pujasamiti">
+        <div className="headback3" />
         <Fade bottom><h1>नवयुवक चित्रगुप्त संघ</h1></Fade>
         <Fade bottom className="cpshead">
         <img className="adhyaksh" src="/Images/commit/Alok.jpg" alt="" />
@@ -40,16 +41,32 @@ const ncs = () => (
             <h3>श्री लाला दीपक सहाय</h3>
           </div>
           <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Vijay.jpg" alt="" />
+            <h3>श्री विजय कुमार सिन्हा</h3>
+          </div>
+          <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Manoj.jpg" alt="" />
             <h3>श्री मनोज कुमार सिन्हा</h3>
           </div>
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Pappu.jpg" alt="" />
-            <h3>श्री विजय कुमार सिन्हा</h3>
+            <h3>श्री बिजय कुमार सिन्हा</h3>
           </div>
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Ranjan.jpg" alt="" />
             <h3>श्री रंजन कुमार सिन्हा</h3>
+          </div>
+          <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Nikku.jpg" alt="" />
+            <h3>श्री निकेश आनंद</h3>
+          </div>
+          <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Pankaj.jpg" alt="" />
+            <h3>श्री पंकज कुमार वर्मा </h3>
+          </div>
+          <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Vikki.jpg" alt="" />
+            <h3>श्री अमित कुमार सिन्हा</h3>
           </div>
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Pinku.jpg" alt="" />
@@ -60,20 +77,28 @@ const ncs = () => (
             <h3>श्री अजित कुमार सिन्हा</h3>
           </div>
           <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Kumod.jpg" alt="" />
+            <h3>श्री कुमोद सिन्हा</h3>
+          </div>
+          <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Munnu.jpg" alt="" />
+            <h3>प्रभात शंकर किशोर</h3>
+          </div>
+          <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Rajeev.jpg" alt="" />
             <h3>राजीव कुमार सिन्हा</h3>
           </div>
           <div className="anyalog">
-            <img className="adhyaksh3" src="/Images/slide1.jpg" alt="" />
-            <h3>नाम</h3>
+            <img className="adhyaksh3" src="/Images/commit/Sanu.jpg" alt="" />
+            <h3>कुमार सानु</h3>
           </div>
           <div className="anyalog">
-            <img className="adhyaksh3" src="/Images/slide1.jpg" alt="" />
-            <h3>नाम</h3>
+            <img className="adhyaksh3" src="/Images/commit/Akash.jpg" alt="" />
+            <h3>आकाश सिन्हा</h3>
           </div>
           <div className="anyalog">
-            <img className="adhyaksh3" src="/Images/slide1.jpg" alt="" />
-            <h3>नाम</h3>
+            <img className="adhyaksh3" src="/Images/commit/Sonu.jpg" alt="" />
+            <h3>समरेश कुमार सिन्हा</h3>
           </div>
         </Fade>
       </div>

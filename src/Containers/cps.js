@@ -8,6 +8,7 @@ const cps = () => (
     <div className="cps">
       <Header />
       <div className="pujasamiti">
+        <div className="headback" />
         <Fade bottom><h1>चित्रगुप्त पूजा समिति</h1></Fade>
         <Fade bottom className="cpshead">
         <img className="adhyaksh" src="/Images/commit/ChotePa.jpg" alt="" />
@@ -54,6 +55,15 @@ const cps = () => (
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Dinesh.jpg" alt="" />
             <h3>श्री दिनेश प्रसाद सिन्हा</h3>
+          </div>
+        </Fade>
+        <Fade bottom delay={500} className="anya">
+          <h2>अन्य सदस्य</h2>
+        </Fade>
+        <Fade bottom delay={500} className="cpshead3">
+          <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Vijay.jpg" alt="" />
+            <h3>श्री विजय कुमार सिन्हा</h3>
           </div>
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Pappu.jpg" alt="" />
