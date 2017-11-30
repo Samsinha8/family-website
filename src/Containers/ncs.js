@@ -82,7 +82,7 @@ const ncs = () => (
           </div>
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Munnu.jpg" alt="" />
-            <h3>प्रभात शंकर किशोर</h3>
+            <h3>श्री प्रभात शंकर किशोर</h3>
           </div>
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Rajeev.jpg" alt="" />
