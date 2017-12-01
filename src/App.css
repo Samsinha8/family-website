@@ -504,12 +504,13 @@
 }
 
 .cpshead{
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .cpshead2{
+  margin-bottom: 30px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -529,17 +530,23 @@
   padding: 4px;
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.adhyaksh:hover{
+  padding: 0px;
+  transition: 200ms;
+}
 .adhyaksh2{
   height: 180px;
   width: 180px;
   border-radius: 100%;
   border: 6px solid yellow;
-  padding: 3px;
+  padding: 4px;
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.adhyaksh2:hover{
+  padding: 0px;
+  transition: 200ms;
+}
 .pujasamiti h1{
-  margin-top: -90px;
-  margin-bottom: 20px;
   padding: 0px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -548,6 +555,7 @@
 }
 @media (max-width: 425px){
   .pujasamiti h1{
+    margin-top: -20px;
     font-size: 35px;
   }
 }
@@ -567,8 +575,15 @@
   font-size: 25px;
   color: yellow;
 }
+.pujasamiti hr{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: yellow;
+}
 .headback{
-  height: 130px;
+  height: 550px;
   width: 100%;
   border: 2px solid yellow;
   background-image: url('/Images/Slide/slide4.JPG');
@@ -578,17 +593,17 @@
   opacity: 0.7;
 }
 .headback2{
-  height: 130px;
+  height: 550px;
   width: 100%;
   border: 2px solid yellow;
   background-image: url('/Images/history.JPG');
   background-size: 100%;
-  background-position-y: 10%;
+  background-position-y: 50%;
   background-repeat: no-repeat;
   opacity: 0.7;
 }
 .headback3{
-  height: 130px;
+  height: 550px;
   width: 100%;
   border: 2px solid yellow;
   background-image: url('/Images/members.JPG');
@@ -596,6 +611,72 @@
   background-position-y: 32%;
   background-repeat: no-repeat;
   opacity: 0.7;
+}
+.headdesc{
+  margin-top: -550px;
+  margin-bottom: 10px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headdesc h1{
+  margin-bottom: 40px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: yellow;
+}
+.headdesc p{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 85%;
+  font-size: 22px;
+  color: yellow;
+}
+.strength{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.strength h3{
+  font-size: 30px;
+}
+@media (max-width: 425px){
+  .headdesc h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .headdesc p{
+    width: 90%;
+    font-size: 13px;
+  }
+  .strength h3{
+    font-size: 15px;
+  }
+  .headback{
+    height: 450px;
+    background-size: 100% 100%;
+  }
+  .headback2{
+    height: 450px;
+    background-size: 100% 100%;
+  }
+  .headback3{
+    height: 450px;
+    background-size: 100% 100%;
+  }
+  .headdesc{
+    margin-bottom: 0px;
+    margin-top: -500px;
+  }
+  .strength{
+    margin-bottom: 10px;
+  }
 }
 .upadhyaksh{
   width: 350px;
@@ -635,6 +716,33 @@
   width: 160px;
   border-radius: 100%;
   border: 4px solid yellow;
+  padding: 4px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.adhyaksh3:hover{
+  padding: 0px;
+  transition: 200ms;
+}
+.brder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+  border: 4px solid yellow;
+}
+.adhyaksh4{
+  height: 155px;
+  width: 155px;
+  border-radius: 100%;
   padding: 3px;
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url('/Images/commit/Sonu1.jpg');
+  background-size: 100%;
+  background-position-y: 40%;
+  background-repeat: no-repeat;
+}
+.adhyaksh4:hover{
+  background-image: url('/Images/commit/Sonu2.jpg');
 }
