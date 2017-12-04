@@ -120,6 +120,14 @@ const cps = () => (
             <h3>श्री पंकज कुमार वर्मा </h3>
           </div>
           <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Tuntun.jpg" alt="" />
+            <h3>श्री प्रेम शंकर किशोर</h3>
+          </div>
+          <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Munnu.jpg" alt="" />
+            <h3>श्री प्रभात शंकर किशोर</h3>
+          </div>
+          <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Amit.jpg" alt="" />
             <h3>श्री अमित कुमार सिन्हा</h3>
           </div>
@@ -130,10 +138,6 @@ const cps = () => (
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Kumod.jpg" alt="" />
             <h3>श्री कुमोद सिन्हा</h3>
-          </div>
-          <div className="anyalog">
-            <img className="adhyaksh3" src="/Images/commit/Munnu.jpg" alt="" />
-            <h3>श्री प्रभात शंकर किशोर</h3>
           </div>
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Raja.jpg" alt="" />
@@ -165,12 +169,28 @@ const cps = () => (
             <h3>कुमार सानु</h3>
           </div>
           <div className="anyalog">
-            <img className="adhyaksh3" src="/Images/Slide/slide1.jpg" alt="" />
+            <img className="adhyaksh3" src="/Images/commit/Monu.jpg" alt="" />
             <h3>गौरव कुमार सिन्हा</h3>
+          </div>
+          <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Dipu.jpg" alt="" />
+            <h3>रितेश कुमार सिन्हा</h3>
           </div>
           <div className="anyalog">
             <img className="adhyaksh3" src="/Images/commit/Akash.jpg" alt="" />
             <h3>आकाश सिन्हा</h3>
+          </div>
+          <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Bantu.jpg" alt="" />
+            <h3>सागर सिन्हा</h3>
+          </div>
+          <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Shubham.jpg" alt="" />
+            <h3>शुभम सिन्हा</h3>
+          </div>
+          <div className="anyalog">
+            <img className="adhyaksh3" src="/Images/commit/Saurav.jpg" alt="" />
+            <h3>सौरव सिन्हा</h3>
           </div>
           <div className="anyalog">
             <div className="brder"><div className="adhyaksh4" /></div>
