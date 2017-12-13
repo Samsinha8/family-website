@@ -5,6 +5,9 @@ import Homepage from './Containers/Homepage';
 import About from './Containers/About';
 import History from './Containers/History';
 import Members from './Containers/Members';
+import Family1 from './Containers/Family1';
+import Family2 from './Containers/Family2';
+import Family3 from './Containers/Family3';
 import Committ from './Containers/Committ';
 import cps from './Containers/cps';
 import mns from './Containers/mns';
@@ -18,6 +21,9 @@ const MainRoutes = () => (
     <Route path="/About" component={About} />
     <Route path="/History" component={History} />
     <Route exact path="/Members" component={Members} />
+    <Route path="/Members/Family1" component={Family1} />
+    <Route path="/Members/Family2" component={Family2} />
+    <Route path="/Members/Family3" component={Family3} />
     <Route exact path="/Committees" component={Committ} />
     <Route path="/Committees/cps" component={cps} />
     <Route path="/Committees/mns" component={mns} />
