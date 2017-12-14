@@ -29,6 +29,7 @@ const Members = () => (
       </Fade>
       <Fade bottom className="memfade">
         <div className="memcard4"/>
+        <Link to="/Members/Family4"><h1>Family No.4</h1></Link>
       </Fade>
     </div>
     <Footer />

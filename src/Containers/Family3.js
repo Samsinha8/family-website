@@ -19,7 +19,7 @@ const Family3 = () => (
           <h3>श्री अवध किशोर प्रसाद</h3>
           <h4>परिवार के मुखिया</h4>
         </div>
-        <i className="fa fa-arrow-left" /><hr /><i className="fa fa-arrow-right" />
+        <i className="fa fa-arrow-left yes" /><hr className="nonmuted" /><hr className="nonmuted" /><i className="fa fa-arrow-right" />
         <div className="memhead">
           <img className="mempic" src="/Images/Members/BadiMaa.jpg" alt="" />
           <h3>श्रीमती माया देवी</h3>
@@ -35,7 +35,7 @@ const Family3 = () => (
           <h3>श्रीमती नूतन सिन्हा</h3>
           <h4>पुत्रवधु</h4>
         </div>
-        <i className="fa fa-arrow-left" /><hr /><i className="fa fa-arrow-right" />
+        <i className="fa fa-arrow-left yes" /><hr /><i className="fa fa-arrow-right" />
         <div className="memhead">
           <hr />
           <i className="fa fa-arrow-down" />
@@ -50,7 +50,7 @@ const Family3 = () => (
           <h3>श्री अजय कुमार सिन्हा</h3>
           <h4>सुपुत्र</h4>
         </div>
-        <i className="fa fa-arrow-left" /><hr /><i className="fa fa-arrow-right" />
+        <i className="fa fa-arrow-left yes" /><hr /><i className="fa fa-arrow-right" />
         <div className="memhead">
           <div className="gap" />
           <img className="mempic" src="/Images/Members/ChotiBh.jpg" alt="" />
@@ -63,8 +63,8 @@ const Family3 = () => (
         <hr className="vertical3"/>
       </div>
       <div className="horizontals">
-        <hr />
-        <hr />
+        <hr className="lefthr"/>
+        <hr className="lefthr"/>
       </div>
       <Fade bottom delay={1000} className="tier2">
         <div className="memhead">

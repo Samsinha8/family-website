@@ -19,7 +19,7 @@ const Family2 = () => (
           <h3>श्री सतीश कुमार सिन्हा</h3>
           <h4>परिवार के मुखिया</h4>
         </div>
-        <i className="fa fa-arrow-left" /><hr /><i className="fa fa-arrow-right" />
+        <i className="fa fa-arrow-left yes" /><hr className="nonmuted" /><hr className="nonmuted" /><i className="fa fa-arrow-right" />
         <div className="memhead">
           <img className="mempic" src="/Images/Members/Maa.jpg" alt="" />
           <h3>श्रीमती शैल सिन्हा</h3>

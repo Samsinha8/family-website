@@ -786,6 +786,15 @@
   background-repeat: no-repeat;
   opacity: 0.7;
 }
+.memcard4{
+  height: 100%;
+  width: 100%;
+  background-image: url('/Images/Members/Family3.jpg');
+  background-size: 100%;
+  background-position-y: 32%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
 .memfade h1{
   color: yellow;
   text-align: center;
@@ -818,10 +827,10 @@
   align-items: center;
   justify-content: center;
 }
-.tier1 hr{
+.nonmuted{
   margin: -40px 0px 0px 0px;
   padding: 0px;
-  width: 15%;
+  width: 7.5%;
   height: 3px;
   background-color: yellow;
 }
@@ -842,12 +851,21 @@
   text-align: center;
   margin: 5px 0px 0px 0px;
 }
-.fa-arrow-left, .fa-arrow-right{
+.fa-arrow-right{
   color: yellow;
   margin-top: -43px;
 }
 .fa-arrow-left, .fa-arrow-right::before{
   font-size: 20px;
+}
+.yes{
+  color: yellow;
+  margin-top: -43px;
+}
+.no{
+  color: yellow;
+  margin-top: -43px;
+  opacity: 0.5;
 }
 .mempic{
   height: 160px;
@@ -889,7 +907,7 @@
   justify-content: space-around;
 }
 .tier2fam3 hr{
-  margin: -40px 0px 0px 0px;
+  margin: -41px 0px 0px 0px;
   padding: 0px;
   width: 5%;
   height: 3px;
@@ -917,6 +935,7 @@
 }
 .gap{
   height: 50px;
+  width: 100%;
 }
 .verticals{
   width: 100%;
@@ -943,7 +962,7 @@
   align-items: center;
   justify-content: space-around;
 }
-.horizontals hr{
+.lefthr{
   margin: 0px;
   padding: 0px;
   height: 3px;
@@ -961,4 +980,36 @@
 .mempic1:hover{
   padding: 0px;
   transition: 200ms;
+}
+.muted{
+  margin: -40px 0px 0px 0px;
+  padding: 0px;
+  width: 7.5%;
+  height: 3px;
+  background-color: yellow;
+  opacity: 0.5;
+}
+.mempicmuted{
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  border: 4px solid yellow;
+  padding: 4px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.7;
+}
+.vertical4{
+  margin: -157px 45px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  height: 220px;
+  width: 4px;
+}
+.righthr{
+  margin: 0px;
+  padding: 0px;
+  width: 25.3%;
+  border: 0px;
+}
+.memheadblank{
+  width: 250px;
 }
