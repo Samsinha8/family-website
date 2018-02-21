@@ -18,8 +18,8 @@ const Footer = () => (
     <div className="fbicons">
       <Fade left delay={500}><a href="https://www.facebook.com/chitranshpariwarkc" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook cicon" /></a></Fade>
       <Fade left delay={1000}><a href="https://chat.whatsapp.com/9UC03h4f9fpAoWRcMX4WTt" target="_blank" rel="noopener noreferrer"><i className="fa fa-whatsapp cicon" /></a></Fade>
-      <Fade left delay={1500}><a href="https://twitter.com/SamSamresh" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter cicon" /></a></Fade>
-      <Fade left delay={2000}><a href="https://www.instagram.com/samresh_sinha/?hl=en" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram cicon" /></a></Fade>
+      <Fade left delay={1500}><a href="https://twitter.com/ChitransPariwar" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter cicon" /></a></Fade>
+      <Fade left delay={2000}><a href="https://www.instagram.com/chitransh_pariwar/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram cicon" /></a></Fade>
     </div>
   </div>
 );
