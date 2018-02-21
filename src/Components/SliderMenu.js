@@ -210,9 +210,12 @@ class SliderMenu extends React.Component {
               </Modal>
             </div>
             <hr className="hr" />
-            <a href="mailto:chitranshpariwarkc@gmail.com"><h3><i className="fa fa-envelope email icons2" />Chitransh Pariwar</h3></a>
-            <a href="https://www.facebook.com/chitranshpariwarkc"><h3><i className="fa fa-facebook icons" />facebook</h3></a>
-            <a href="https://twitter.com/SamSamresh"><h3><i className="fa fa-twitter icons" />Twitter</h3></a>
+            <h3><center>Contact Us</center></h3>
+            <a href="mailto:chitranshpariwarkc@gmail.com" target="_blank" rel="noopener noreferrer"><h3><i className="fa fa-envelope email icons2" />Chitransh Pariwar</h3></a>
+            <a href="https://www.facebook.com/chitranshpariwarkc" target="_blank" rel="noopener noreferrer"><h3><i className="fa fa-facebook icons" />facebook</h3></a>
+            <a href="https://chat.whatsapp.com/9UC03h4f9fpAoWRcMX4WTt" target="_blank" rel="noopener noreferrer"><h3><i className="fa fa-whatsapp icons" />whatsApp</h3></a>
+            <a href=""><h3><i className="fa fa-instagram icons" />Instagram</h3></a>
+            <a href="https://twitter.com/SamSamresh" target="_blank" rel="noopener noreferrer"><h3><i className="fa fa-twitter icons" />Twitter</h3></a>
             <a><h3><i className="fa fa-phone icons" />9852236661</h3></a>
           </div>
         </div>
